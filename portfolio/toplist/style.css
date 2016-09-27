@@ -1,5 +1,20 @@
-.description
-{
-	color:#0000FF;
+* {
+   outline: 1px solid red !important;
 }
 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+
+.screenshot
+{
+	     max-width: 480px;
+}
+
+.description
+{
+	max-width: 720px;
+}
