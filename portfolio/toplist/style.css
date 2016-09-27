@@ -18,3 +18,12 @@
 {
 	max-width: 720px;
 }
+.app 
+{
+	display: flex;
+}
+.title
+{
+	background: #33BEBE;
+
+}
