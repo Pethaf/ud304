@@ -12,11 +12,13 @@
 .screenshot
 {
 	     max-width: 480px;
+	     margin-right: 20px;
 }
 
 .description
 {
 	max-width: 720px;
+	color: #7C8B88;
 }
 .app 
 {
