@@ -2,16 +2,22 @@
 <html>
   <head>
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  	<link rel="stylesheet" type="text/css" href="css/style.css">
+  	<script src="http://code.jquery.com/jquery-3.1.1.slim.min.js"
+			  integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+			  crossorigin="anonymous"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="container">
       <div class="row">
       <div class="col-md-6"><img src="http://placehold.it/100x100"></div>
-      <div class="col-md-6">
+      <div class="col-md-6 text-left text-uppercase">
         <h1>Jane Doette</h1>
         <h3>Front-end Ninja</h3>
       </div>
     </div>
+    <hr>
     <div class="row">
     	<div class="col-md-12">
       		<img src="http://placehold.it/1140x350">
@@ -22,30 +28,95 @@
       		<h2>Featured Work</h2>
     	</div>
     </div>
-    <div class="row">
+    <div class="row text-center">
       <div class="col-md-6">
-        <img src="http://placehold.it/555x300">
+        <img src="http://placehold.it/555x300" data-toggle="modal" data-target="#project1">
         <h3>Appify</h3>
         <p><a href="http://github.com">Link to project</a></p>
       </div>
       <div class="col-md-6">
-        <img src="http://placehold.it/555x300">
-        <h3>Appify</h3>
-        <p><a href="http://github.com">Link to project</a></p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <img src="http://placehold.it/555x300">
-        <h3>Appify</h3>
-        <p><a href="http://github.com">Link to project</a></p>
-      </div>
-      <div class="col-md-6">
-        <img src="http://placehold.it/555x300">
+        <img src="http://placehold.it/555x300" data-toggle="modal" data-target="#project2">
         <h3>Appify</h3>
         <p><a href="http://github.com">Link to project</a></p>
       </div>
     </div>
+    <div class="row text-center">
+      <div class="col-md-6">
+        <img src="http://placehold.it/555x300" data-toggle="modal" data-target="#project3">
+        <h3>Appify</h3>
+        <p><a href="http://github.com">Link to project</a></p>
+      </div>
+      <div class="col-md-6">
+        <img src="http://placehold.it/555x300" data-toggle="modal" data-target="#project4">
+        <h3>Appify</h3>
+        <p><a href="http://github.com">Link to project</a></p>
+      </div>
+    </div>
+    </div>
+     <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">First project</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://placehold.it/555x300">
+                    Demo modal for project #1. Probably could write lots of interesting things here.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Second project</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://placehold.it/555x300">
+                    Demo modal for project #2. Probably could write lots of interesting things here.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Third project</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://placehold.it/555x300">
+                    Demo modal for project #3. Probably could write lots of even more interesting things here.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Fourth project</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://placehold.it/555x300">
+                    Demo modal for project #4. Probably could write lots of super interesting things here.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
   </body>
 </html>
